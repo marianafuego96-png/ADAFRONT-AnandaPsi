@@ -1,0 +1,128 @@
+<!DOCTYPE html> <!-- doctype siempre obligatorio-->
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="./css/EstilosCSS.css">
+  <link rel="stylesheet" href="./css/Font Awesome/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios de psicología y desarrollo personal con Jazmín. Terapia online para transformación y bienestar emocional.">
+  <title>Ananda Psicología</title>
+</head>
+<body>
+  <header>
+    
+    <img src="images/anandabannerborde.png" alt="Ananda Atención Psicológica" style="width: 100%; height: auto; max-width: 2048px;">
+    <nav aria-label="Principal">
+      <a href="https://wa.me/541154781996" target="_blank" class="boton-wsp">
+        <i class="fab fa-whatsapp"></i> Solicitar turno por WhatsApp
+      </a>
+      <div class="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#tratamientos">Tratamientos</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h1>Sobre mí</h1>
+        <div class="sobre-mi-contenido">
+        <img src="images/JazminRicci.jpg" alt="Jazmin Ricci" class="foto-perfil">
+      
+      <p>Hola a todos! Quiero contarles un poco sobre mi:
+        Mi nombre es Jazmín y tengo 30 años. Soy recibida de la UBA como Licenciada en Psicología y vivo en Bariloche (Arg.). 
+        Estoy inmersa en el ámbito psi hace más de diez años, desde antes de involucrarme con la carrera. 
+        Pasé por muchos terapeutas y modos de hacer psicología, siempre en la búsqueda de querer superarme y comprenderme.
+        Hasta que finalmente di con la profesional que me impulsa actualmente y me mentorea con mucha amorosidad para crecer en este ambiente. 
+        Soy partidaria de que somos seres individuales inmersos en sistemas por lo que la mirada de mi terapia no sólo es individual sino que también parto de que somos en sociedad. 
+        Si bien, mi formación sigue los lineamientos de mi tan amado Freud, continuo constantemente con la lectura de otras corrientes y soy amante de las neurociencias.
+        En mi profesión trato de unir el comportamiento y la fisiología del cerebro, comprender los por qué de las conductas y las correlaciones entre cuerpo-mente. 
+        Mi servicio está puesto en acompañar almas de todo el mundo en su proceso de transformación de forma online.
+        Creo en la danza sagrada del alma y su historia.
+        En alimentar lo sensible, despertar lo adormecido y darnos permiso para <strong>ser</strong>.</p>
+        </div>
+</section>
+   <section id="tratamientos">
+    <h2>ANANDA: Un espacio para el bienestar y el desarrollo personal</h2>
+     <div class="bloque-ananda">
+         <img src="images/SignficadoAnanda.png" alt="Significado de Ananda" class="significado-ananda">
+      <p>
+      Trabajo desde un enfoque terapéutico orientado al desarrollo personal donde cada proceso es único y se construye respetando la historia, los tiempos y las necesidades de cada persona. La terapia psicológica que ofrezco busca generar un espacio seguro de escucha y comprensión, favoreciendo el autoconocimiento, la regulación emocional y la transformación de patrones que generan malestar. A través del trabajo conjunto, acompañó a quienes consultan a desarrollar mayor claridad interna, fortalecer sus recursos personales y construir una vida más coherente con sus deseos y valores.</p>
+    
+  </div>
+</section>
+
+
+    <section id="metodologia">
+      <h2>Metodología</h2>
+      <p>La <cite>re-conexión</cite> con el cuerpo es la llave para c o m p r e n d e r n o s.
+      Te acompaño a observar tus reacciones corporales, guiaremos la conciencia a explorar y procesar lo que <strong>duele</strong>, lo que <strong>incomoda</strong> y lo que pide ser <strong>sostenido</strong>.
+    Este trabajo promueve:</p>
+      <ul>
+        <li>Autoconocimiento profundo.</li>
+        <li>Regulación emocional.</li>
+        <li>Presencia y dominio interno.</li>
+        <li>Un vínculo compasivo con uno mismo.</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        Instagram:
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/anandapsi__/">
+          https://www.instagram.com/anandapsi__/
+        </a>
+      </p>
+      <p>
+        Email:
+        <a rel="noopener noreferrer" href="mailto:jazminricci59@gmail.com">
+          jazminricci59@gmail.com
+        </a>
+      </p>
+
+      <button id="abrirModal">Formulario de contacto</button>
+    </section>
+
+    <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-contenido">
+        <button id="cerrarModal" type="button" aria-label="Cerrar">&times;</button>
+        
+        <h3>¿Tenés dudas? Contáctame</h3>
+
+        <form id="contactForm" action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" name="nombre" type="text" required>
+
+          <label for="celular">Celular:</label>
+          <input id="celular" name="celular" type="tel" required>
+
+          <label for="motivo">Motivo:</label>
+          <select id="motivo" name="motivo" required>
+            <option value="">Seleccionar...</option>
+            <option>Administrativas (Horarios/Aranceles)</option>
+            <option>Trastornos de Ansiedad y Estrés</option>
+            <option>Otro</option>
+          </select>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <script src="Modalformulario.js"></script>
+
+  <footer>
+    <nav aria-label="Pie de página">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#tratamientos">Tratamientos</a>
+      <a href="#metodologia">Metodología</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <p>© 2026 Desarrollado por:  Mariana Fuego</p>
+  </footer>
+</body>
+</html>
